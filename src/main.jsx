@@ -3,7 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ccc4a25d5d295bfe8c76df524843db6e8bf5a4d
 const books = [
   {
     id: 1,
@@ -27,5 +30,9 @@ const books = [
   },
 ];
 
+<<<<<<< HEAD
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
+=======
+ReactDOM.createRoot(document.getElementById('root')).render(<App Ns={books} />);
+>>>>>>> 3ccc4a25d5d295bfe8c76df524843db6e8bf5a4d

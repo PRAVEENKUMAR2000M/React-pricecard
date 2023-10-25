@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
+
 const books = [
   {
     id: 1,
@@ -26,5 +27,5 @@ const books = [
   },
 ];
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App Ns={books} />);
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
